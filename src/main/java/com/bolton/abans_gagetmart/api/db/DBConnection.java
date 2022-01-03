@@ -4,9 +4,6 @@ import java.sql.Connection;
 
 import org.apache.commons.dbcp2.BasicDataSource;
 
-import com.swlc.gadget_mart.api.db.DBConnection;
-import com.swlc.gadget_mart.api.db.DatabaseConstants;
-
 public class DBConnection {
 	
 	private static DBConnection dbConnection;
